@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Gallery</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="visible-md visible-lg">
+     <div class="main">
+        <div class="row">
+        <div class="col-md-12 menu">
+          <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="Biography.html">Biography</a></li>
+            <li><a href="songs.html">Songs</a></li>
+            <li><a href="video.html">Videos</a></li>
+            <li><a href="#" style="background-color: black;font-size: 16px;">Gallery</a></li>
+            
+          </ul>
+        </div>
+        </div>
+       
+  
+<!-- Grid row -->
+
+<!-- Grid row -->
+<div class="row">
+  <div class="col-md-12">
+
+    <div id="mdb-lightbox-ui"></div>
+
+    <div class="mdb-lightbox no-margin">
+
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg" data-size="1600x1067">
+          <img alt="picture" src="images/sg1.jpg" class="img-fluid">
+        </a>
+      </figure>
+
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(98).jpg" data-size="1600x1067">
+          <img alt="picture"  src="images/sgp.jpg"  class="img-fluid"/>
+        </a>
+      </figure>
+
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(131).jpg" data-size="1600x1067">
+          <img alt="picture"  src="images/sg11.jpg"  class="img-fluid" />
+        </a>
+      </figure>
+
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(123).jpg" data-size="1600x1067">
+          <img alt="picture"  src="images/sg4.jpg"  class="img-fluid" />
+        </a>
+      </figure>
+
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(118).jpg" data-size="1600x1067">
+          <img alt="picture"  src="images/sg13.jpg"  class="img-fluid" />
+        </a>
+      </figure>
+
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(128).jpg" data-size="1600x1067">
+          <img alt="picture"  src="images/sg7.jpg"  class="img-fluid" />
+        </a>
+      </figure>
+
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(132).jpg" data-size="1600x1067">
+          <img alt="picture"  src="images/sg8.jpg"  class="img-fluid" />
+        </a>
+      </figure>
+
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(115).jpg" data-size="1600x1067">
+          <img alt="picture"  src="images/sg9.jpg"  class="img-fluid"/>
+        </a>
+      </figure>
+
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(133).jpg" data-size="1600x1067">
+          <img alt="picture"  src="images/sg10.jpg"  class="img-fluid" />
+        </a>
+      </figure>
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(133).jpg" data-size="1600x1067">
+          <img alt="picture"  src="images/sg12.jpg"  class="img-fluid" />
+        </a>
+      </figure>
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(133).jpg" data-size="1600x1067">
+          <img alt="picture"  src="images/sg3.jpg"  class="img-fluid" />
+        </a>
+      </figure>
+       <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(133).jpg" data-size="1600x1067">
+          <img alt="picture"  src="images/sg14.jpg"  class="img-fluid" />
+        </a>
+      </figure>
+
+    </div>
+
+  </div>
+</div>
+ 
+<!-- Grid row -->
+<script type="text/javascript">
+  $(function() {
+var selectedClass = "";
+$(".filter").click(function(){
+selectedClass = $(this).attr("data-rel");
+$("#gallery").fadeTo(100, 0.1);
+$("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
+setTimeout(function() {
+$("."+selectedClass).fadeIn().addClass('animation');
+$("#gallery").fadeTo(300, 1);
+}, 300);
+});
+});
+</script>
+      
+  </body>
+</html>

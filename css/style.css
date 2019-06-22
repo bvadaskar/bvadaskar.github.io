@@ -1,0 +1,63 @@
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+	background-color:black;
+	height: 50px;
+
+}
+.menu ul li{
+	list-style-type: none;
+	float: left;
+	width: 6%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 15px;
+}
+.menu a{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+.menu a:hover{
+	background-color: red;
+	font-size: 16px;
+}
+.main{
+	height:100%;
+}
+.active{
+	background-color: black;
+	font-size: 14px;
+}
+.imgc{
+	height: 100%;
+}
+body{
+	background-color: black;
+}
+.bcontent p{
+	font-family: Kristen ITC;
+	color: white;
+	margin-top:50px;
+}
+.bcontent {
+    height: 500px;
+  width: 900px;
+  overflow-y:scroll;
+  border:1px solid white;
+}
+.song-list ul{
+	margin-top: 20px;
+}
+.song-list ul li{
+	list-style-type:none;
+	margin-top: 3px;
+	}
+.song-list a{
+	color: white;
+	font-size: 15px;
+	font-family:Kristen ITC; 
+}
+.song-list a:hover{
+	text-decoration: none;
+}
