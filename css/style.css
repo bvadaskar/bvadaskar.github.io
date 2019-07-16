@@ -3,19 +3,20 @@ html, body {
         margin: 0px;
             }
 .full-window-pc{
-	height: 100%;
-	width: 100%;
-	background-image:url('../images/sg23.jpg');
+  height: 100%;
+  width: 100%;
+  background-image:url('../images/sg23.jpg');
+
 }
 .bio-main-pc{
-	height: 100%;
-	width: 100%;
-	background-color:black;
+  height: 100%;
+  width: 100%;
+  background-color:black;
 }
 .bcontent p{
-	font-family: Kristen ITC;
-	color:white;
-	margin-top:50px;
+  font-family: Kristen ITC;
+  color:white;
+  margin-top:50px;
 }
 .bcontent {
     height: 500px;
@@ -25,8 +26,8 @@ html, body {
 }
 .mcontent p{
 font-family: Kristen ITC;
-	color:white;
-	margin-top:50px;
+  color:white;
+  margin-top:50px;
 }
 .mcontent {
   height: 100%;
@@ -35,14 +36,15 @@ font-family: Kristen ITC;
   border:1px solid white;
 }
 .mob-view{
-	height: 100%;
-	width: 100%;
-	background-image:url('../images/sg16.jpg');
+  height: 100%;
+  width: 100%;
+  background-image:url('../images/sg16.jpg');
+  background-repeat: no-repeat;
 }
 .bio-mob-view{
-	height: 100%;
-	width: 100%;
-	background-color: black;
+  height: 100%;
+  width: 100%;
+  background-color: black;
 }
 .icon-bar {
   position: fixed;
@@ -83,9 +85,9 @@ font-family: Kristen ITC;
   color: white;
 }
 .menu-pc{
-	width:100%;
-	background-color:#222222;
-	
+  width:100%;
+  background-color:#222222;
+  
 }
 .menu-pc ul{
      margin:0px;
@@ -93,23 +95,23 @@ font-family: Kristen ITC;
    height: 50px;
 }
 .menu-pc ul li{
-	
-	float: left;
-	height: 50px;
-	width:6%;
-	list-style-type: none;
-	text-align: center;
-	line-height: 50px;
+  
+  float: left;
+  height: 50px;
+  width:6%;
+  list-style-type: none;
+  text-align: center;
+  line-height: 50px;
 }
 .menu-pc a{
-	text-decoration: none;
-	color: white;
-	display: block;
-	font-size: 15px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 15px;
 }
 .menu-pc a:hover{
-	background-color: black;
-	font-size: 16px;
+  background-color: black;
+  font-size: 16px;
 }
 .topnav {
   overflow: hidden;
@@ -137,9 +139,9 @@ font-family: Kristen ITC;
   top: 0;
 }
 .hpp{
-	
-	margin-top: 80px;
-	color:white;
-	font-family:Bradley Hand ITC;
-	font-size: 25px;
+  
+  margin-top: 80px;
+  color:white;
+  font-family:Bradley Hand ITC;
+  font-size: 25px;
 }
