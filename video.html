@@ -8,8 +8,10 @@
     <title>Videos</title>
 
     <!-- Bootstrap -->
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -17,27 +19,60 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body class="visible-md visible-lg">
-     <div class="main">
-        <div class="row">
-        <div class="col-md-12 menu">
-          <ul>
-            <li><a href="index.html" >Home</a></li>
-            <li><a href="biography.html" class="active">Biography</a></li>
-            <li><a href="songs.html">Songs</a></li>
-            <li><a href="#video">Videos</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            
-          </ul>
-        </div>
-        </div>
-        <br><br>
+  <body style="background-color: black;">
+     <div class="bio-main-pc visible-md visible-lg">
+     <div class="menu-pc">
+       <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="biography.html">Biography</a></li>
+          <li><a href="songs.html">Songs</a></li>
+          <li><a href="#video">Videos</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+       </ul>
+     </div>
+    <br><br>
        <center><iframe width="700" height="450" src="https://www.youtube.com/embed/vxQ9n02VqVM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center><br><br>
        <center><iframe width="700" height="450" src="https://www.youtube.com/embed/4WnX9XGvTLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center><br><br>
        <center><iframe width="700" height="450" src="https://www.youtube.com/embed/ArXuUEze168" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center><br><br>
         <center><iframe width="700" height="450" src="https://www.youtube.com/embed/XQlbx1TAxQk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center><br><br>
          <center><iframe width="700" height="450" src="https://www.youtube.com/embed/0Qi5EemoSQE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center><br><br>
 
-      
+                </div>  
+     <div class="bio-mob-view visible-sm visible-xs">
+     <div class="topnav">
+  <a href="#home" style="font-family:Bradley Hand ITC;"><b>Shreya Ghoshal</b></a>
+  <center><div id="myLinks">
+    <a href="index.html">Home</a>
+    <a href="biography.html">Biography</a>
+    <a href="songs.html">Songs</a>
+    <a href="gallery.html">Gallery</a>
+
+  </div></center>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+ <div>
+        <br><br>
+       <center><iframe width="100%" height="450" src="https://www.youtube.com/embed/vxQ9n02VqVM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center><br><br>
+       <center><iframe width="100%" height="450" src="https://www.youtube.com/embed/4WnX9XGvTLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center><br><br>
+       <center><iframe width="100%" height="450" src="https://www.youtube.com/embed/ArXuUEze168" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center><br><br>
+        <center><iframe width="100%" height="450" src="https://www.youtube.com/embed/XQlbx1TAxQk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center><br><br>
+         <center><iframe width="100%" height="450" src="https://www.youtube.com/embed/0Qi5EemoSQE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center><br><br>
+       </div>
+     <script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

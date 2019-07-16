@@ -1,43 +1,20 @@
-.menu ul{
-	margin: 0px;
-	padding: 0px;
-	background-color:black;
-	height: 50px;
-
-}
-.menu ul li{
-	list-style-type: none;
-	float: left;
-	width: 6%;
-	text-align: center;
-	line-height: 50px;
-	font-size: 15px;
-}
-.menu a{
-	display: block;
-	text-decoration: none;
-	color: white;
-}
-.menu a:hover{
-	background-color: red;
-	font-size: 16px;
-}
-.main{
-	height:100%;
-}
-.active{
-	background-color: black;
-	font-size: 14px;
-}
-.imgc{
+html, body {
+        height: 100%;
+        margin: 0px;
+            }
+.full-window-pc{
 	height: 100%;
+	width: 100%;
+	background-image:url('../images/sg23.jpg');
 }
-body{
-	background-color: black;
+.bio-main-pc{
+	height: 100%;
+	width: 100%;
+	background-color:black;
 }
 .bcontent p{
 	font-family: Kristen ITC;
-	color: white;
+	color:white;
 	margin-top:50px;
 }
 .bcontent {
@@ -46,18 +23,123 @@ body{
   overflow-y:scroll;
   border:1px solid white;
 }
-.song-list ul{
-	margin-top: 20px;
+.mcontent p{
+font-family: Kristen ITC;
+	color:white;
+	margin-top:50px;
 }
-.song-list ul li{
-	list-style-type:none;
-	margin-top: 3px;
-	}
-.song-list a{
-	color: white;
-	font-size: 15px;
-	font-family:Kristen ITC; 
+.mcontent {
+  height: 100%;
+  width: 350;
+  overflow-y:scroll;
+  border:1px solid white;
 }
-.song-list a:hover{
+.mob-view{
+	height: 100%;
+	width: 100%;
+	background-image:url('../images/sg16.jpg');
+}
+.bio-mob-view{
+	height: 100%;
+	width: 100%;
+	background-color: black;
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  
+  color: white;
+}
+
+.twitter {
+  
+  color: white;
+}
+.youtube {
+ 
+  color: white;
+}
+.instagram {
+  
+  color: white;
+}
+.menu-pc{
+	width:100%;
+	background-color:#222222;
+	
+}
+.menu-pc ul{
+     margin:0px;
+   padding: 0px;
+   height: 50px;
+}
+.menu-pc ul li{
+	
+	float: left;
+	height: 50px;
+	width:6%;
+	list-style-type: none;
+	text-align: center;
+	line-height: 50px;
+}
+.menu-pc a{
 	text-decoration: none;
+	color: white;
+	display: block;
+	font-size: 15px;
+}
+.menu-pc a:hover{
+	background-color: black;
+	font-size: 16px;
+}
+.topnav {
+  overflow: hidden;
+ 
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.hpp{
+	
+	margin-top: 80px;
+	color:white;
+	font-family:Bradley Hand ITC;
+	font-size: 25px;
 }

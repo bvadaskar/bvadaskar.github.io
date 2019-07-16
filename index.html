@@ -8,8 +8,10 @@
     <title>Home</title>
 
     <!-- Bootstrap -->
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -17,27 +19,59 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body class="visible-md visible-lg">
-     <div class="main">
-        <div class="row">
-        <div class="col-md-12 col-xs-12 col-ss-12 col-lg-12 menu">
-          <ul>
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="biography.html">Biography</a></li>
-            <li><a href="songs.html">Songs</a></li>
-            <li><a href="video.html">Videos</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-
-            
-          </ul>
-        </div>
-          
-        </div>
-            <div class="container imgc">
-                  <div>
-                  <center><img src="images/sg2.jpg" width="750px" class="img-rounded" style="margin-bottom:0px;padding-bottom: 0px;"></center>
-                      </div>
-          
+  <body>
+     <div class="full-window-pc visible-md visible-lg">
+     <div class="menu-pc">
+       <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="biography.html">Biography</a></li>
+          <li><a href="songs.html">Songs</a></li>
+          <li><a href="video.html">Videos</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+       </ul>
+     </div>
+     <div class="row">
+         <div class="col-md-3 col-lg-3 col-md-offset-8 col-lg-offset-8 hpp">
+           <p>Shreya Ghoshal is an Indian playback singer. She has received four National Film Awards, seven Filmfare Awards including six for Best Female Playback Singer, nine Filmfare Awards South, four Kerala State Film Awards and two Tamil Nadu State Film Awards.</p>
+         </div>
+     </div>
+        <div class="icon-bar">
+      <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a> 
+     </div>
+     </div>  
+     <div class="mob-view visible-sm visible-xs">
+     <div class="topnav">
+  <a href="#home" style="font-family:Bradley Hand ITC;"><b>Shreya Ghoshal</b></a>
+  <center><div id="myLinks">
+    <a href="biography.html">Biography</a>
+    <a href="songs.html">Songs</a>
+    <a href="video.html">Videos</a>
+    <a href="gallery.html">Gallery</a>
+  </div></center>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+      <div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+   <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a> 
+</div>
+     </div>  
+     <script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
