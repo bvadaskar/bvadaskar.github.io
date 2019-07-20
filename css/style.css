@@ -38,7 +38,9 @@ font-family: Kristen ITC;
 .mob-view{
   height: 100%;
   width: 100%;
-  background-image:url('../images/sg24.jpg');
+  background-image:url('../images/sg16.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 .bio-mob-view{
   height: 100%;
