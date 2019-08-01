@@ -6,8 +6,9 @@ html, body {
   height: 100%;
   width: 100%;
   background-image:url('../images/sg23.jpg');
-
-}
+  background-repeat: no-repeat;
+  background-color:#5a5c69;
+ }
 .bio-main-pc{
   height: 100%;
   width: 100%;
